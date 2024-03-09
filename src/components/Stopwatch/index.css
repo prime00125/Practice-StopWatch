@@ -1,0 +1,65 @@
+/* Write CSS here */
+.watch {
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 4px 5px 4px grey;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  height: 300px;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+.section2 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn1 {
+  background-color: greenyellow;
+  box-shadow: 2px 3px green;
+
+  width: 100px;
+  height: 100px;
+  border: none;
+  font-size: larger;
+  border-radius: 20px;
+}
+.btn2 {
+  background-color: red;
+  box-shadow: 2px 3px red;
+
+  width: 100px;
+  height: 100px;
+  border: none;
+  font-size: larger;
+  border-radius: 20px;
+}
+.btn3 {
+  background-color: orange;
+  box-shadow: 2px 3px orange;
+
+  width: 100px;
+  height: 100px;
+  border: none;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.mainLogo {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.time {
+  font-size: 70px;
+  font-weight: 900;
+}
